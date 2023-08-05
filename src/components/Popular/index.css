@@ -1,0 +1,15 @@
+.popular-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.popular-fv,
+.loader-fv {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}

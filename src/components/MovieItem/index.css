@@ -1,0 +1,11 @@
+.slide-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-image {
+  height: 170px;
+  width: 254px;
+
+  border-radius: 8px;
+}

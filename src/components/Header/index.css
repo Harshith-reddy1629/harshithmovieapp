@@ -1,0 +1,44 @@
+.header-container {
+  background: rgba(19, 19, 19, 0.2);
+  /* position: absolute; */
+  height: 100px;
+  width: 100%;
+  /* top: 0; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.p-1 {
+  display: flex;
+}
+
+.header-button {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: #fff;
+}
+
+.search-in {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  color: #fff;
+}
+
+.wl-lo {
+  display: none;
+}
+
+.home-class {
+  position: absolute;
+  top: 0;
+}

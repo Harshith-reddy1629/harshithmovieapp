@@ -1,0 +1,61 @@
+.account-card {
+  background-color: #fff;
+  padding: 64px 165px 0 165px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.account-heading {
+  margin-bottom: 24px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.membership-container {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  flex-direction: row;
+}
+.plan-container {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  flex-direction: row;
+}
+.membership-text {
+  color: rgba(148, 163, 184, 1);
+  margin-right: 24px;
+}
+.password-text {
+  color: rgba(100, 116, 139, 1);
+  margin-top: 13px;
+}
+
+.ultra-text {
+  border: 2px solid;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.logout-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logout-button {
+  margin-bottom: 50px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+  background: #e50914;
+  border-radius: 4px;
+  color: #fff;
+  border: 0;
+  outline: none;
+}
