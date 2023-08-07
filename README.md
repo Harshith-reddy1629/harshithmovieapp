@@ -191,7 +191,7 @@ The app must have the following functionalities
   - For Mini Projects, You have to use normal HTML elements to style the React Components. Usage of `styled-components` (CSS in JS) to style React components are not supported in Mini Projects. Test cases won't be passed, If you use styled components.
   - Refer to the below Example for the usage of `testid` in the HTML elements.
 
-    - Example: `<div testid="movieItem" className="movie-item"/>`.
+    - Example: `<divdata-testid="movieItem" className="movie-item"/>`.
 
 - **Routes**
 
@@ -205,7 +205,7 @@ The app must have the following functionalities
 - Wrap the `Loader` component with an HTML container element and add the `testid` attribute value as **loader** to it
 
   ```jsx
-  <div className="loader-container" testid="loader">
+  <div className="loader-container"data-testid="loader">
     <Loader type="TailSpin" color="#D81F26" height={50} width={50} />
   </div>
   ```

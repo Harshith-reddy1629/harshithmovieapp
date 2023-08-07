@@ -86,7 +86,7 @@ class Search extends Component {
   )
 
   loadingView = () => (
-    <div className="search-lv" testid="loader">
+    <div className="search-lv" data-testid="loader">
       <Loader type="TailSpin" color="#D81F26" height={50} width={50} />
     </div>
   )

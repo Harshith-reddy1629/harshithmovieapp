@@ -75,7 +75,7 @@ class Popular extends Component {
   )
 
   loadingView = () => (
-    <div className="loader-fv" testid="loader">
+    <div className="loader-fv" data-testid="loader">
       <Loader type="TailSpin" color="#D81F26" height={50} width={50} />
     </div>
   )

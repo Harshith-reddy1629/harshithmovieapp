@@ -43,7 +43,7 @@ class Header extends Component {
         <nav className="nav-container">
           <Link to="/">
             <img
-              alt="website logo "
+              alt="website logo"
               src="https://res.cloudinary.com/reddyimgs/image/upload/v1689919947/Group_7399_ashfla.png"
               className="website-logo"
             />
@@ -82,7 +82,7 @@ class Header extends Component {
                   onClick={this.onClickSearch}
                   className="header-button search-btn"
                   type="button"
-                  testid="searchButton"
+                  data-testid="searchButton"
                 >
                   <HiOutlineSearch />
                 </button>
@@ -92,7 +92,7 @@ class Header extends Component {
                 <button
                   className="header-button"
                   type="button"
-                  testid="searchButton"
+                  data-testid="searchButton"
                 >
                   <HiOutlineSearch />
                 </button>
