@@ -48,6 +48,11 @@ class TrendingNow extends Component {
       slidesToScroll: 3,
       infinite: false,
     }
+    // const mobilesettings = {
+    //   slidesToShow: 3,
+    //   slidesToScroll: 3,
+    //   infinite: false,
+    // }
 
     return (
       <>
@@ -57,6 +62,11 @@ class TrendingNow extends Component {
               <MovieItem key={each.id} items={each} />
             ))}
           </Slider>
+          {/* <Slider {...mobilesettings}>
+            {TrendingList.map(each => (
+              <MovieItem key={each.id} items={each} />
+            ))}
+          </Slider> */}
         </ul>
       </>
     )

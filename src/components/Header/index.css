@@ -8,6 +8,11 @@
   /* justify-content: center; */
   align-items: center;
 }
+@media (max-width: 768px) {
+  .header-container {
+    all: unset;
+  }
+}
 
 .nav-container {
   width: 100%;

@@ -9,3 +9,11 @@
 
   border-radius: 8px;
 }
+@media (max-width: 767px) {
+  .slider-image {
+    height: 110px;
+    width: 90px;
+  }
+  .slide-img-container {
+  }
+}

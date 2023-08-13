@@ -13,6 +13,12 @@
     rgba(24, 24, 24, 0) 99.77%
   );
 }
+@media (max-width: 768px) {
+  .poster-content-movie-details {
+    all: unset;
+    background-position: 50% 50%;
+  }
+}
 .poster-container {
   display: flex;
   flex-direction: column;
@@ -28,6 +34,14 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 164px;
+}
+@media (max-width: 768px) {
+  .poster-content {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .poster-heading {
@@ -45,6 +59,16 @@
   font-size: 20px;
   line-height: 26px;
   margin-bottom: 32px;
+}
+@media (max-width: 768px) {
+  .poster-heading {
+    all: unset;
+    font-size: 24px;
+  }
+  .poster-para {
+    all: unset;
+    font-size: 18px;
+  }
 }
 
 .poster-button {

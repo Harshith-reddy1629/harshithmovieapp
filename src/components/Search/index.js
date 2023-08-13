@@ -21,7 +21,8 @@ class Search extends Component {
   state = {status: '', searchList: [], searched: ''}
 
   tryAgain = () => {
-    this.fetchData()
+    const {searched} = this.state
+    this.fetchData(searched)
   }
 
   searchRoute = () => {
