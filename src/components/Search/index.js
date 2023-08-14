@@ -93,7 +93,7 @@ class Search extends Component {
   )
 
   fetchData = async valueOFSearch => {
-    this.setState({status: pageStatus.Loading})
+    this.setState({status: pageStatus.Loading, searched: valueOFSearch})
 
     const jwtToken = Cookies.get('jwt_token')
 
